@@ -1,0 +1,55 @@
+name: RelativvEssentials
+version: ${project.version}
+main: de.relativv.relativvessentials.main.Essentials
+api-version: 1.13
+authors: [relativv]
+description: Essentials for relativv.tk
+
+commands:
+  credits:
+    description: Verwalte die Credits auf dem Netzwerk
+    aliases: [money, geld]
+  fly:
+    description: Aktiviere/Deaktiviere den Flugmodus der Spieler
+    aliases: [flugmodus, flymode, fliegen]
+  gm:
+    description: Verwalte deinen Spielmodus
+    aliases: [gamemode, spielmodus]
+  warp:
+    description: Teleportiere dich zum platzierten Punkten
+    aliases: [warping, warpen]
+  setwarp:
+    description: Setze einen Teleportpunkt
+    aliases: [warpset, warpsetzen]
+  tp:
+    description: Teleportiere dich zu Spielern oder Koordinaten
+    aliases: [teleport, teleportieren]
+  tphere:
+    description: Teleportiere Spieler zu dir
+    aliases: [teleporthere, tphier]
+  day:
+    description: Mach Tag
+    aliases: [tag, tagmachen]
+  delwarp:
+    description: Lösche Teleportpunkte
+    aliases: [deletwarp, warpdel]
+  night:
+    description: Mach Nacht
+    aliases: [nacht]
+  tpa:
+    description: Sende Teleportanfragen an Spieler
+  tpaccept:
+    description: Akzeptiere Teleportanfragen
+  tpdeny:
+    description: Lehne Teleportanfragen ab
+  home:
+    description: Teleportiere dich zu einem deiner Homes
+  sethome:
+    description: Setze neue Homes
+  delhome:
+    description: Lösche deine Homes
+  vanish:
+    description: Unsichtbar machen
+    aliases: [v, hideMe]
+  nick:
+    description: Nicksystem
